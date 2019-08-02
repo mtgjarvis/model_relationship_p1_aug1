@@ -1,5 +1,5 @@
 """
-WSGI config for model_relationship_p1_aug1 project.
+WSGI config for modelship project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'model_relationship_p1_aug1.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'modelship.settings')
 
 application = get_wsgi_application()

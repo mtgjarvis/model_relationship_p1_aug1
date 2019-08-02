@@ -14,4 +14,3 @@ class Order(models.Model):
     order_num = models.IntegerField()
     date = models.DateField()
     customer_id = models.ForeignKey('Customer', on_delete=models.CASCADE)
-
